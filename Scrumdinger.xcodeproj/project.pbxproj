@@ -12,6 +12,8 @@
 		DFF4527D2CD5B8AB00519B87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF4527C2CD5B8AB00519B87 /* Assets.xcassets */; };
 		DFF452802CD5B8AB00519B87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF4527F2CD5B8AB00519B87 /* Preview Assets.xcassets */; };
 		DFF452882CD5CA7C00519B87 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF452872CD5CA7C00519B87 /* Theme.swift */; };
+		DFF4528B2CD5CF5B00519B87 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF4528A2CD5CF5B00519B87 /* DailyScrum.swift */; };
+		DFF4528D2CD5D0EE00519B87 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF4528C2CD5D0EE00519B87 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		DFF4527C2CD5B8AB00519B87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFF4527F2CD5B8AB00519B87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DFF452872CD5CA7C00519B87 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		DFF4528A2CD5CF5B00519B87 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		DFF4528C2CD5D0EE00519B87 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				DFF452872CD5CA7C00519B87 /* Theme.swift */,
+				DFF4528A2CD5CF5B00519B87 /* DailyScrum.swift */,
+				DFF4528C2CD5D0EE00519B87 /* CardView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -148,9 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFF4528B2CD5CF5B00519B87 /* DailyScrum.swift in Sources */,
 				DFF452882CD5CA7C00519B87 /* Theme.swift in Sources */,
 				DFF4527B2CD5B8A900519B87 /* MeetingView.swift in Sources */,
 				DFF452792CD5B8A900519B87 /* ScrumdingerApp.swift in Sources */,
+				DFF4528D2CD5D0EE00519B87 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
