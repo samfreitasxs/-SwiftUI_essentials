@@ -3,9 +3,6 @@
 //  Scrumdinger
 //
 //  Created by Samuel Freitas on 01/11/24.
-//
-
-import Foundation
 import SwiftUI
 
 enum Theme: String {
